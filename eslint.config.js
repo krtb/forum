@@ -16,4 +16,11 @@ export default [
   js.configs.recommended,
   ...pluginVue.configs['flat/essential'],
   skipFormatting,
+
+  {
+    name: 'app/custom-rules',
+    rules: {
+      'no-unused-vars': process.env.NODE_ENV === 'production' ? 'error' : 'warn'
+    }
+  }
 ]
