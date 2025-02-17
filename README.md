@@ -1,6 +1,5 @@
 # forum
-
-This template should help get you started developing with Vue 3 in Vite.
+A dynamic Vue.js 3 forum app utilizing the Options API, featuring user authentication, category-based discussions, and real-time interaction capabilities.
 
 ## Recommended IDE Setup
 
